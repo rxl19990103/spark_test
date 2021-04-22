@@ -1,61 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac35664a-4f3d-45b8-ba69-5f2855c39834" name="Default Changelist" comment="spark_learn">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00001.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00002.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00003.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00004.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/.part-00005.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/part-00005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Driver$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor2$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/SubTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Task$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark001_RDD_Memory$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark001_RDD_Memory$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark001_RDD_Memory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File_Par$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File_Par.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Driver$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Executor$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Executor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Task$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01.class" afterDir="false" />
+    <list default="true" id="ac35664a-4f3d-45b8-ba69-5f2855c39834" name="Default Changelist" comment="second_learn">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File_Par.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="486">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -105,7 +52,14 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -166,44 +120,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fenbu_test" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -215,7 +143,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -227,7 +155,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -316,10 +244,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Spark002_RDD_File_Par" />
-        <item itemvalue="Application.Spark001_RDD_Memory" />
         <item itemvalue="Application.Spark002_RDD_File" />
-        <item itemvalue="Application.Driver (1)" />
+        <item itemvalue="Application.Spark001_RDD_Memory" />
         <item itemvalue="Application.Executor2" />
+        <item itemvalue="Application.Driver (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -337,6 +265,7 @@
       <workItem from="1618886333510" duration="18953000" />
       <workItem from="1618967388893" duration="21654000" />
       <workItem from="1619053190144" duration="7685000" />
+      <workItem from="1619063810026" duration="1232000" />
     </task>
     <task id="LOCAL-00001">
       <created>1619055461015</created>
@@ -352,17 +281,45 @@
       <option name="project" value="LOCAL" />
       <updated>1619055511658</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second_test">
+      <created>1619063967771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619063967771</updated>
+    </task>
+    <task id="LOCAL-00004" summary="second_learn">
+      <created>1619064035805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619064035805</updated>
+    </task>
+    <task id="LOCAL-00005" summary="second_learn">
+      <created>1619069852237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619069852237</updated>
+    </task>
+    <task id="LOCAL-00006" summary="second_learn">
+      <created>1619069859841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619069859841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48867000" />
+    <option name="totallyTimeSpent" value="50099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="0" width="1074" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24852072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25345168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -373,13 +330,13 @@
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.26396495" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.26396495" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.122672506" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -433,16 +390,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spark_learn" />
-    <option name="LAST_COMMIT_MESSAGE" value="spark_learn" />
+    <MESSAGE value="second_test" />
+    <MESSAGE value="second_learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="second_learn" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spark_test/input/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/input/1.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -627,8 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File_Par.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="486">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
