@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac35664a-4f3d-45b8-ba69-5f2855c39834" name="Default Changelist" comment="spark_learn">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Driver$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Executor2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/SubTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Task$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fenbu_test/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark001_RDD_Memory$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark001_RDD_Memory$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark001_RDD_Memory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File_Par$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/rdd/create_rdd/Spark002_RDD_File_Par.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Driver$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Executor$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Task$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test_socket/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/wc/Test01.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark001_RDD_Memory.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File_Par.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>defaultParallelism</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/input/1.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/wc/Test01.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/test_socket/Driver.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/test_socket/Task.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/test_socket/Executor.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/fenbu_test/Driver.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/fenbu_test/Executor2.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/fenbu_test/Task.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/fenbu_test/Executor.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/fenbu_test/SubTask.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_Filr.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark001_RDD_Memory.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File_Par.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.3-bin" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark_learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark_learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="853" />
+    <option name="width" value="1074" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenbu_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark_test" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rdd.create_rdd" />
+      <recent name="fenbu_test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Spark002_RDD_File_Par">
+    <configuration name="Driver (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="fenbu_test.Driver" />
+      <module name="spark_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fenbu_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Executor2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="fenbu_test.Executor2" />
+      <module name="spark_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fenbu_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spark001_RDD_Memory" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.create_rdd.Spark001_RDD_Memory" />
+      <module name="spark_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rdd.create_rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spark002_RDD_File" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.create_rdd.Spark002_RDD_File" />
+      <module name="spark_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rdd.create_rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spark002_RDD_File_Par" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.create_rdd.Spark002_RDD_File_Par" />
+      <module name="spark_learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rdd.create_rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Spark002_RDD_File_Par" />
+        <item itemvalue="Application.Spark001_RDD_Memory" />
+        <item itemvalue="Application.Spark002_RDD_File" />
+        <item itemvalue="Application.Driver (1)" />
+        <item itemvalue="Application.Executor2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac35664a-4f3d-45b8-ba69-5f2855c39834" name="Default Changelist" comment="" />
+      <created>1618885701669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618885701669</updated>
+      <workItem from="1618885704456" duration="575000" />
+      <workItem from="1618886333510" duration="18953000" />
+      <workItem from="1618967388893" duration="21654000" />
+      <workItem from="1619053190144" duration="7685000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1619055461015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619055461015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="spark_learn">
+      <created>1619055511658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619055511658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48867000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="853" y="0" width="1074" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24852072" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32932165" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.26396495" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24954128" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.4059081" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20642202" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32932165" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.3522976" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24954128" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.4059081" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spark_learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark_learn" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../spark_test/input/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2403">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fenbu_test/Executor2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#20#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fenbu_test/Executor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fenbu_test/Driver.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fenbu_test/Task.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fenbu_test/SubTask.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar!/scala/Serializable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/scheduler/local/LocalSchedulerBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="145" selection-start-line="145" selection-end-line="145" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/api/java/JavaSparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="125" column="60" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar!/scala/Tuple2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/scheduler/TaskScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="664" column="59" selection-start-line="664" selection-start-column="59" selection-end-line="664" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/scheduler/SchedulerBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00003" />
+    <entry file="file://$PROJECT_DIR$/output/part-00004" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/wc/Test01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_socket/Driver.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#21#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_socket/Executor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#21#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_socket/Task.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/rdd/ParallelCollectionRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/apache-maven-3.6.3-bin/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="713" column="6" selection-start-line="713" selection-start-column="6" selection-end-line="713" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-00000" />
+    <entry file="file://$PROJECT_DIR$/output/part-00001" />
+    <entry file="file://$PROJECT_DIR$/output/part-00002" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark001_RDD_Memory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rdd/create_rdd/Spark002_RDD_File_Par.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spark_learn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.spark:spark-sql_${scala.toots.version}:unknown</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
