@@ -2,7 +2,7 @@ package operator.transform
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Spark001_RDD_transform {
+object Spark001_Operator_transform_Test {
   def main(args: Array[String]): Unit = {
 
       //TODO 准备环境
@@ -13,14 +13,12 @@ object Spark001_RDD_transform {
       //TODO 创建RDD
     val rdd = sc.makeRDD(List(1,2,3,4),2)
 
-    val mapRDD = rdd.mapPartitions(
-      iter => {
-        println(">>>>>>")
-        iter.map(_ * 2)
+    val mpRDD = rdd.mapPartitions(
+       num => {
+        List(num.max).iterator
       }
     )
-mapRDD.collect().foreach(println)
-
+    mpRDD.collect().foreach(println)
       //TODO 关闭环境
     sc.stop()
   }
