@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac35664a-4f3d-45b8-ba69-5f2855c39834" name="Default Changelist" comment="second_learn001">
-      <change afterPath="$PROJECT_DIR$/src/main/java/operator/transform/Spark001_Operator_transform_Test.scala" afterDir="false" />
+    <list default="true" id="ac35664a-4f3d-45b8-ba69-5f2855c39834" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operator/transform/Spark001_RDD_transform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operator/transform/Spark001_RDD_transform.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/operator/transform/Spark08_Operator_transform_Sample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="379">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -351,7 +349,7 @@
       <workItem from="1618967388893" duration="21654000" />
       <workItem from="1619053190144" duration="7685000" />
       <workItem from="1619063810026" duration="15710000" />
-      <workItem from="1619141309956" duration="2181000" />
+      <workItem from="1619141309956" duration="2770000" />
     </task>
     <task id="LOCAL-00001">
       <created>1619055461015</created>
@@ -409,11 +407,25 @@
       <option name="project" value="LOCAL" />
       <updated>1619076099001</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="second_learn001">
+      <created>1619143754934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619143754934</updated>
+    </task>
+    <task id="LOCAL-00010" summary="second_learn001">
+      <created>1619144043228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619144043228</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66758000" />
+    <option name="totallyTimeSpent" value="67347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="852" y="0" width="1075" height="1047" extended-state="0" />
@@ -764,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/operator/transform/Spark08_Operator_transform_Sample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="379">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
