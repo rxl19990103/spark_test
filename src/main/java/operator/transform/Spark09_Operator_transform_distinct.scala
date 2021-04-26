@@ -1,10 +1,8 @@
 package operator.transform
 
-import java.text.SimpleDateFormat
-
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Spark007_Operator_transform_Filter {
+object Spark09_Operator_transform_distinct {
   def main(args: Array[String]): Unit = {
 
     //TODO 准备环境
@@ -14,11 +12,10 @@ object Spark007_Operator_transform_Filter {
     val sc = new SparkContext(sparkConf)
     //TODO 创建RDD
 
-    val rdd = sc.makeRDD(List(1,2,3,4))
-    val filterRDD = rdd.filter(
-      num => num % 2 != 0
-    )
-    filterRDD.collect().foreach(println)
+    val data = sc.makeRDD(List(1,2,3,4,1,2,3,4))
+    val disRDD = data.distinct
+    disRDD.collect().foreach(println)
+
 
 
     //TODO 关闭环境
