@@ -1,9 +1,7 @@
 package etl2.domain
 
-
-
-import java.sql.{Date, Timestamp}
-import java.text.SimpleDateFormat
+import java.sql.Timestamp
+import java.text.{DateFormat, SimpleDateFormat}
 
 import com.alibaba.fastjson.JSON
 import etl2.accumulator.com.jgw.bigdata.spark.AnjiWhiteTea.accumulator.IotDeviceDataAccumulator
@@ -16,12 +14,9 @@ import scala.collection.JavaConversions._
 object Spark2Hive extends Logging with SparkApplication {
   //    val sparkConf = new SparkConf().setMaster("local[4]").setAppName("RDD")
 
-
-
   def etl(spark: SparkSession): Unit = {
     //    val spark = SparkSession.builder().appName("sort").getOrCreate()
-    //    var datas = spark.read.format("json").load("file:\\E:\\workspace\\scala\\spark_test\\json_test\\test0001")
-    //
+    //    var datas = spark.read.format("json").load("file:\\E:\\workspace\\scala\\spark_test\\json_test\\test0001"
     //    val data2Json = datas.toJSON
     //    data2Json
 
@@ -37,12 +32,13 @@ object Spark2Hive extends Logging with SparkApplication {
     val requestObject = JSON.parseObject(request)
 
     val resultString = requestObject.getString("Data")
-    //print(resultString)
+    //  println(resultString)
     val resultObject = JSON.parseObject(resultString)
-    // println(resultObject)
+
     val datas = resultObject.getJSONArray("row")
     val dataStr = datas.toString
 
+    //  println(dataStr)
     //解析json数据
     val elementList = JSON.parseArray(dataStr, classOf[ELementSummary])
 
@@ -53,9 +49,20 @@ object Spark2Hive extends Logging with SparkApplication {
       val iotData: collection.mutable.ListBuffer[IotDeviceData] = new collection.mutable.ListBuffer[IotDeviceData]()
 
 
-      val operatetime :Timestamp = Timestamp.valueOf(new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").parse(element.getOperateTime).toLocaleString())
+      val date1 = element.getOperateTime
+      val date2 = date1.replaceAll("/", "-")
+      val operatetime: Timestamp = Timestamp.valueOf(date2)
 
-      val data = IotDeviceData(element.getNodeID, operatetime, element.getNodeName,element.getBlockNo, element.getNodeHash,element.getModifyTime, element.getBlockHash, element.getSourceHash, element.getTransactionTime, element.getCreateTime)
+      logInfo(s"operatetime===> $operatetime")
+
+
+
+      //  val operatetime: Timestamp = Timestamp.valueOf(new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").parse(element.getOperateTime).toString)
+      //   println(operatetime)
+      // val operatetime: Timestamp = Timestamp.valueOf(new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").parse(element.getOperateTime).toLocaleString())
+
+
+      val data = IotDeviceData(element.getNodeID, operatetime, element.getNodeName, element.getBlockNo, element.getNodeHash, element.getModifyTime, element.getBlockHash, element.getSourceHash, element.getTransactionTime, element.getCreateTime)
 
       iotData.add(data)
       accumulator.add(iotData)
@@ -63,13 +70,12 @@ object Spark2Hive extends Logging with SparkApplication {
 
     //将数据写进hive
     val data_url = accumulator.value
-
     val outputRDD = spark.sparkContext.makeRDD(data_url)
     val outputDF = outputRDD.toDF()
-    outputDF.write.format("hive").mode(SaveMode.Overwrite).insertInto("testdb.testetl")
-
-
+    val default = outputDF.write.format("hive").mode(SaveMode.Overwrite).insertInto("testdb.testetl001")
+    outputDF.show(false)
   }
+
 
   def main(args: Array[String]): Unit = {
     System.setProperty("HADOOP_USER_NAME", "hadoop")
@@ -80,9 +86,10 @@ object Spark2Hive extends Logging with SparkApplication {
   }
 }
 
+
 case class IotDeviceData(
                           nodeID: String,
-                          operateTime: java.sql.Timestamp,
+                          operateTime: Timestamp,
                           nodeName: String,
                           blockNo: String,
                           nodeHash: String,
@@ -91,6 +98,4 @@ case class IotDeviceData(
                           sourceHash: String,
                           transactionTime: String,
                           createTime: String
-
-
                         )

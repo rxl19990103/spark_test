@@ -8,7 +8,7 @@ object Test {
     val datas = spark.read.format("json").load("file:\\E:\\workspace\\scala\\spark_test\\json_test\\test0001")
 
     val data2Json = datas.toJSON
-
+    data2Json.show()
 
   }
 }

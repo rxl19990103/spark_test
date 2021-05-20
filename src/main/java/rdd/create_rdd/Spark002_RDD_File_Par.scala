@@ -12,7 +12,7 @@ object Spark002_RDD_File_Par {
       //TODO 创建RDD
 
     val rdd = sc.makeRDD(List(1,2,3,4,5),6)
-    rdd.saveAsTextFile("output")
+    rdd.saveAsTextFile("file:\\E:\\workspace\\scala\\spark_test\\json_test\\output")
 
       //TODO 关闭环境
     sc.stop()
