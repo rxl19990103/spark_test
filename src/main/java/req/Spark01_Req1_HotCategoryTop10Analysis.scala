@@ -13,7 +13,10 @@ object Spark01_Req1_HotCategoryTop10Analysis {
 
     //1. 读取原始日志数据
 
-    val actionRDD = sc.textFile("E:\\workspace\\scala\\spark_test\\datas\\user_visit_action.txt")
+    val actionRDD = sc.textFile("file:\\E:\\workspace\\scala\\spark_test\\datas\\user_visit_action.txt")
+
+
+
     //2. 统计品类的点击数量：（品类ID，点击数量）
     val clinkActionRDD = actionRDD.filter(
       action => {
@@ -42,7 +45,7 @@ object Spark01_Req1_HotCategoryTop10Analysis {
     //【(1,1), (2,1), (3,1)】
     val orderCountRDD = orderActionRDD.flatMap(
       action => {
-        val datas = action.split(",")
+        val datas = action.split("_")
         val cid = datas(8)
         val cids = cid.split(",")
         cids.map(id => (id, 1))
@@ -64,8 +67,8 @@ object Spark01_Req1_HotCategoryTop10Analysis {
 
     val payCountRDD = payActionRDD.flatMap(
       action => {
-        val datas = action.split(",")
-        val cid = datas(8)
+        val datas = action.split("_")
+        val cid = datas(10)
         val cids = cid.split(",")
         cids.map(id => (id, 1))
       }
@@ -75,7 +78,7 @@ object Spark01_Req1_HotCategoryTop10Analysis {
     val cogroupRDD:RDD[(String,(Iterable[Int],Iterable[Int],Iterable[Int]))] =
                     clickCountRDD.cogroup(orderCountRDD,payCountRDD)
 
-    cogroupRDD.mapValues{
+    val analysisRDD =  cogroupRDD.mapValues{
       case(clickIter, orderIter, payIter) => {
 
         var clickCnt = 0
@@ -95,10 +98,15 @@ object Spark01_Req1_HotCategoryTop10Analysis {
         if (iter3.hasNext) {
           payCnt = iter3.next()
         }
+        (clickCnt,orderCnt,payCnt)
       }
     }
 
+    val resultRDD = analysisRDD.sortBy(_._2, false).take(10)
     //6. 将结果采集到控制台，并打印出来
+
+    resultRDD.foreach(println)
+
 
     sc.stop()
   }
